@@ -1,0 +1,684 @@
+{
+  "app": "hotdesk-bot",
+  "version": 1,
+  "exportedAt": "2026-11-16T19:50:45.084Z",
+  "officeName": null,
+  "zones": [
+    {
+      "id": 5,
+      "name": "Рабочие места архитекторов",
+      "floor": "7",
+      "description": "Только архитекторы",
+      "isActive": true,
+      "createdAt": "2026-11-13T06:22:47.365Z"
+    },
+    {
+      "id": 6,
+      "name": "Рабочие места инженеров",
+      "floor": "7",
+      "description": "Только для инженеров",
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:00.870Z"
+    },
+    {
+      "id": 7,
+      "name": "Партнеры 3 шт",
+      "floor": "7",
+      "description": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:36.233Z"
+    },
+    {
+      "id": 8,
+      "name": "Переговорная",
+      "floor": "7",
+      "description": "Бронирование переговорной",
+      "isActive": true,
+      "createdAt": "2026-11-13T06:26:39.561Z"
+    }
+  ],
+  "desks": [
+    {
+      "id": 31,
+      "zoneId": 5,
+      "code": "01",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:23:15.622Z"
+    },
+    {
+      "id": 32,
+      "zoneId": 5,
+      "code": "02",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:23:15.622Z"
+    },
+    {
+      "id": 33,
+      "zoneId": 5,
+      "code": "03",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:23:15.622Z"
+    },
+    {
+      "id": 34,
+      "zoneId": 5,
+      "code": "04",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:23:15.622Z"
+    },
+    {
+      "id": 35,
+      "zoneId": 5,
+      "code": "05",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:23:15.622Z"
+    },
+    {
+      "id": 41,
+      "zoneId": 5,
+      "code": "06",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 42,
+      "zoneId": 5,
+      "code": "07",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 43,
+      "zoneId": 5,
+      "code": "08",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 44,
+      "zoneId": 5,
+      "code": "09",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 45,
+      "zoneId": 5,
+      "code": "10",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 46,
+      "zoneId": 5,
+      "code": "11",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 47,
+      "zoneId": 5,
+      "code": "12",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 48,
+      "zoneId": 5,
+      "code": "13",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 49,
+      "zoneId": 5,
+      "code": "14",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:24:59.542Z"
+    },
+    {
+      "id": 50,
+      "zoneId": 6,
+      "code": "01",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 51,
+      "zoneId": 6,
+      "code": "02",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 52,
+      "zoneId": 6,
+      "code": "03",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 53,
+      "zoneId": 6,
+      "code": "04",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 54,
+      "zoneId": 6,
+      "code": "05",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 55,
+      "zoneId": 6,
+      "code": "06",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:10.805Z"
+    },
+    {
+      "id": 56,
+      "zoneId": 7,
+      "code": "01",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:47.003Z"
+    },
+    {
+      "id": 57,
+      "zoneId": 7,
+      "code": "02",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:47.003Z"
+    },
+    {
+      "id": 58,
+      "zoneId": 7,
+      "code": "03",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:25:47.003Z"
+    },
+    {
+      "id": 59,
+      "zoneId": 8,
+      "code": "01",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:34:35.516Z"
+    },
+    {
+      "id": 61,
+      "zoneId": 8,
+      "code": "02",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:44:41.700Z"
+    },
+    {
+      "id": 62,
+      "zoneId": 8,
+      "code": "03",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:44:41.700Z"
+    },
+    {
+      "id": 63,
+      "zoneId": 8,
+      "code": "04",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:44:41.700Z"
+    },
+    {
+      "id": 64,
+      "zoneId": 8,
+      "code": "05",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:44:41.700Z"
+    },
+    {
+      "id": 65,
+      "zoneId": 8,
+      "code": "06",
+      "features": null,
+      "isActive": true,
+      "createdAt": "2026-11-13T06:44:41.700Z"
+    }
+  ],
+  "employees": [
+    {
+      "id": 7,
+      "telegramId": 474363314,
+      "username": "stormpace",
+      "firstName": "Alex Litin",
+      "lastName": null,
+      "fullName": "Alex Litin",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": false,
+      "createdAt": "2026-11-13T06:33:23.604Z",
+      "lastSeenAt": "2026-11-13T06:41:26.700Z"
+    },
+    {
+      "id": 8,
+      "telegramId": 152047640,
+      "username": "marfaschwarz",
+      "firstName": "marfa",
+      "lastName": null,
+      "fullName": "Марфа",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": false,
+      "createdAt": "2026-11-13T06:43:32.618Z",
+      "lastSeenAt": "2026-11-13T06:45:22.939Z"
+    },
+    {
+      "id": 9,
+      "telegramId": 382188366,
+      "username": "Fedor_Rashchevskiy",
+      "firstName": "Фёдор",
+      "lastName": "Ращевский",
+      "fullName": "Фёдор Ращевский",
+      "team": "партнер",
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T06:43:32.996Z",
+      "lastSeenAt": "2026-11-13T08:27:57.570Z"
+    },
+    {
+      "id": 10,
+      "telegramId": 1452388312,
+      "username": null,
+      "firstName": "Алексей",
+      "lastName": null,
+      "fullName": "Алексей Раздорских",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": false,
+      "createdAt": "2026-11-13T06:44:06.317Z",
+      "lastSeenAt": "2026-11-13T06:45:05.577Z"
+    },
+    {
+      "id": 11,
+      "telegramId": 342267089,
+      "username": "astronomovboy",
+      "firstName": "Eugene A.",
+      "lastName": null,
+      "fullName": "Астрономов",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T06:58:19.532Z",
+      "lastSeenAt": "2026-11-13T07:20:20.037Z"
+    },
+    {
+      "id": 12,
+      "telegramId": 112846309,
+      "username": "aykulagin",
+      "firstName": "Alexey",
+      "lastName": "Kulagin",
+      "fullName": "Алексей Кулагин",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T06:58:20.170Z",
+      "lastSeenAt": "2026-11-13T08:27:56.974Z"
+    },
+    {
+      "id": 14,
+      "telegramId": 813785820,
+      "username": null,
+      "firstName": "Михаил",
+      "lastName": "Лидов",
+      "fullName": "Михаил Лидов",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:00:51.265Z",
+      "lastSeenAt": "2026-11-13T08:38:21.599Z"
+    },
+    {
+      "id": 15,
+      "telegramId": 381235726,
+      "username": "Bereg00",
+      "firstName": "кирилл",
+      "lastName": null,
+      "fullName": "Кирилл",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:12:47.012Z",
+      "lastSeenAt": "2026-11-13T07:17:59.134Z"
+    },
+    {
+      "id": 16,
+      "telegramId": 802973096,
+      "username": null,
+      "firstName": "Rakhimova",
+      "lastName": "Irina",
+      "fullName": "Rakhimova Irina",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:12:51.408Z",
+      "lastSeenAt": "2026-11-13T07:18:06.548Z"
+    },
+    {
+      "id": 17,
+      "telegramId": 977129138,
+      "username": "d_gotovko",
+      "firstName": "Даша",
+      "lastName": null,
+      "fullName": "Дарья Готовко",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:12:52.497Z",
+      "lastSeenAt": "2026-11-13T07:16:08.323Z"
+    },
+    {
+      "id": 18,
+      "telegramId": 1457846578,
+      "username": "linkoltmm",
+      "firstName": "Максим",
+      "lastName": "Кулиев",
+      "fullName": "Максим Кулиев",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": false,
+      "createdAt": "2026-11-13T07:12:55.036Z",
+      "lastSeenAt": "2026-11-13T07:18:52.701Z"
+    },
+    {
+      "id": 19,
+      "telegramId": 416000867,
+      "username": null,
+      "firstName": null,
+      "lastName": null,
+      "fullName": "Настя Аксенчик",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:13:22.747Z",
+      "lastSeenAt": "2026-11-13T07:13:22.747Z"
+    },
+    {
+      "id": 20,
+      "telegramId": 1035253971,
+      "username": "dolenkko",
+      "firstName": "Ксения",
+      "lastName": "Доленко",
+      "fullName": "Доленко Ксения",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:15:14.506Z",
+      "lastSeenAt": "2026-11-13T08:30:24.318Z"
+    },
+    {
+      "id": 21,
+      "telegramId": 736853255,
+      "username": "decembre_nell",
+      "firstName": "Ксеня",
+      "lastName": null,
+      "fullName": "Ксеня",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": false,
+      "createdAt": "2026-11-13T07:18:46.631Z",
+      "lastSeenAt": "2026-11-13T08:27:58.337Z"
+    },
+    {
+      "id": 22,
+      "telegramId": 435203542,
+      "username": "MishelVinogradov",
+      "firstName": "Mishel",
+      "lastName": "Vinogradov",
+      "fullName": "Виноградов Мишель",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T07:19:18.653Z",
+      "lastSeenAt": "2026-11-13T08:27:56.180Z"
+    },
+    {
+      "id": 23,
+      "telegramId": 745808749,
+      "username": "arivvellll",
+      "firstName": "Валерия",
+      "lastName": null,
+      "fullName": "Валерия",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T08:27:54.459Z",
+      "lastSeenAt": "2026-11-13T08:27:55.390Z"
+    },
+    {
+      "id": 24,
+      "telegramId": 1614204188,
+      "username": "AnAKhar24",
+      "firstName": "Анастасия",
+      "lastName": "Х.",
+      "fullName": "Анастасия Х.",
+      "team": null,
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T08:27:57.759Z",
+      "lastSeenAt": "2026-11-13T08:27:58.143Z"
+    },
+    {
+      "id": 25,
+      "telegramId": 228574250,
+      "username": "ESheban",
+      "firstName": "Evgeniya",
+      "lastName": "Shebanova",
+      "fullName": "Евгения Шебанова",
+      "team": "ГАП",
+      "role": "user",
+      "isBlocked": false,
+      "profileCompleted": true,
+      "createdAt": "2026-11-13T08:34:45.272Z",
+      "lastSeenAt": "2026-11-13T08:35:46.642Z"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 8,
+      "employeeId": 7,
+      "deskId": 42,
+      "bookingDate": "2026-11-13",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T06:41:26.704Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 9,
+      "employeeId": 10,
+      "deskId": 51,
+      "bookingDate": "2026-11-14",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T06:45:05.581Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 10,
+      "employeeId": 8,
+      "deskId": 44,
+      "bookingDate": "2026-11-14",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T06:45:09.116Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 11,
+      "employeeId": 18,
+      "deskId": 52,
+      "bookingDate": "2026-11-16",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:20.649Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 12,
+      "employeeId": 14,
+      "deskId": 50,
+      "bookingDate": "2026-11-16",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:41.311Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 13,
+      "employeeId": 14,
+      "deskId": 50,
+      "bookingDate": "2026-11-17",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:41.311Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 14,
+      "employeeId": 14,
+      "deskId": 50,
+      "bookingDate": "2026-11-18",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:41.311Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 15,
+      "employeeId": 14,
+      "deskId": 50,
+      "bookingDate": "2026-11-19",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:41.311Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 16,
+      "employeeId": 14,
+      "deskId": 50,
+      "bookingDate": "2026-11-20",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:14:41.311Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 17,
+      "employeeId": 17,
+      "deskId": 50,
+      "bookingDate": "2026-11-14",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:16:08.327Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 18,
+      "employeeId": 12,
+      "deskId": 50,
+      "bookingDate": "2026-11-13",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:16:15.339Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 19,
+      "employeeId": 15,
+      "deskId": 45,
+      "bookingDate": "2026-11-14",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:17:59.137Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 20,
+      "employeeId": 11,
+      "deskId": 55,
+      "bookingDate": "2026-11-16",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:19:54.051Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    },
+    {
+      "id": 21,
+      "employeeId": 21,
+      "deskId": 31,
+      "bookingDate": "2026-11-14",
+      "status": "active",
+      "note": null,
+      "createdAt": "2026-11-13T07:20:05.975Z",
+      "cancelledAt": null,
+      "source": "telegram"
+    }
+  ]
+}
